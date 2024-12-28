@@ -1,0 +1,8 @@
+﻿  main.cpp
+  Node.hpp
+  Relationship.cpp
+  Generating Code...
+x64\Debug\Node.obj : warning LNK4042: object specified more than once; extras ignored
+main.obj : error LNK2019: unresolved external symbol "public: class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > __cdecl Node::str(void)const " (?str@Node@@QEBA?AV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@XZ) referenced in function "class std::basic_ostream<char,struct std::char_traits<char> > & __cdecl operator<<(class std::basic_ostream<char,struct std::char_traits<char> > &,class Node const &)" (??6@YAAEAV?$basic_ostream@DU?$char_traits@D@std@@@std@@AEAV01@AEBVNode@@@Z)
+main.obj : error LNK2001: unresolved external symbol "private: static __int64 Node::identity" (?identity@Node@@0_JA)
+C:\projects\GraphDatabase\GraphDatabase\x64\Debug\GraphDatabase.exe : fatal error LNK1120: 2 unresolved externals
